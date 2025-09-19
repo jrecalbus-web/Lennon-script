@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lennon Script</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            background: rgba(0,0,0,0.75);
+            padding: 50px 40px;
+            border-radius: 20px;
+            max-width: 450px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            animation: fadeIn 1.5s ease-in;
+        }
+        h1 {
+            font-size: 32px;
+            color: #ffcb05;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px #000;
+        }
+        p {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            border-radius: 12px;
+            text-decoration: none;
+            margin: 10px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+        }
+        .premium {
+            background: gray;
+            cursor: not-allowed;
+            opacity: 0.6;
+        }
+        .get-script {
+            background: linear-gradient(90deg, #ff416c, #ff4b2b);
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(-20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lennon Script</h1>
+        <p>Selecciona una opción:</p>
+        <a class="btn premium">🔒 Premium</a>
+        <br>
+        <a href="https://www.roblox.com/share?code=ebfc673439f5e5408307ce1dc0ca338b&type=Server" class="btn get-script" target="_blank">
+            Get Script
+        </a>
+    </div>
+</body>
+</html>
