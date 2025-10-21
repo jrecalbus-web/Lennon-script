@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lennon Script</title>
+  <title>Mixed Script</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -62,11 +62,11 @@
 </head>
 <body>
   <div class="container">
-    <h1>Lennon Script</h1>
+    <h1>Miranda Script</h1>
     <p>Selecciona una opción:</p>
     <a class="btn premium">🔒 Premium</a>
     <br>
-    <a href="https://www.roblox.com/share?code=291c13470645054a80b2af8e6739d6a7&type=Server" 
+    <a href="https://www.roblox.com/share?code=b11df842f2a3bb4fa152b4328303effe&type=Server" 
        class="btn get-script" target="_blank">⚡ Get Script</a>
   </div>
 </body>
